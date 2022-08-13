@@ -1,0 +1,114 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "titulo": "Programador"
+    },
+    {
+      "id": 2,
+      "titulo": "Dev. Front-End"
+    },
+    {
+      "id": 3,
+      "titulo": "Dev. Back-End"
+    },
+    {
+      "id": 4,
+      "titulo": "Analista de dados"
+    },
+    {
+      "id": 5,
+      "titulo": "Dev. Full-Stack"
+    }
+  ],
+  "candidatos": [
+    {
+      "nome": "Rafael Mauricio da Silva",
+      "data": "2022-08-11",
+      "telefone": "19981848627",
+      "email": "rafael_mauricio@hstmail.com",
+      "vaga": "Analista de dados",
+      "id": 1
+    },
+    {
+      "nome": "pedro Mauricio da Silva",
+      "data": "2022-08-11",
+      "telefone": "19981848627",
+      "email": "rafael_mauricio@hstmail.com",
+      "vaga": "Dev. Front-End",
+      "id": 2
+    },
+    {
+      "nome": "marquin",
+      "data": "2022-08-11",
+      "telefone": "19981848627",
+      "email": "rafael_mauricio@hotmail.com",
+      "vaga": "Analista de dados",
+      "id": 3
+    },
+    {
+      "nome": "marquin",
+      "data": "2022-08-11",
+      "telefone": "19981848627",
+      "email": "rafael_mauricio@hotmail.com",
+      "vaga": "Dev. Back-End",
+      "id": 4
+    },
+    {
+      "nome": "marquin",
+      "data": "2022-08-11",
+      "telefone": "19981848627",
+      "email": "rafael_mauricio@hotmail.com",
+      "vaga": "Analista de dados",
+      "id": 5
+    },
+    {
+      "nome": "marquin",
+      "data": "2022-08-11",
+      "telefone": "19981848627",
+      "email": "rafael_mauricio@hotmail.com",
+      "vaga": "Dev. Front-End",
+      "id": 6
+    },
+    {
+      "nome": "marquin",
+      "data": "2022-08-11",
+      "telefone": "19981848627",
+      "email": "rafael_mauricio@hotmail.com",
+      "vaga": "Programador",
+      "id": 7
+    },
+    {
+      "nome": "jose marcos",
+      "data": "2022-08-11",
+      "telefone": "2314516512451",
+      "email": "jose@hotmail.com",
+      "vaga": "Analista de dados",
+      "id": 8
+    },
+    {
+      "nome": "beatriz",
+      "data": "1999-02-23",
+      "telefone": "19239287429",
+      "email": "bia@gmail.com",
+      "vaga": "Dev. Front-End",
+      "id": 9
+    },
+    {
+      "nome": "Trem bala",
+      "data": "2022-08-01",
+      "telefone": "11 9999 2222",
+      "email": "trembala@hotmail.com",
+      "vaga": "Dev. Back-End",
+      "id": 10
+    },
+    {
+      "nome": "pao",
+      "data": "2022-08-16",
+      "telefone": "11 99199 2223",
+      "email": "jose@gmail.com",
+      "vaga": "Programador",
+      "id": 11
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(152, 250, 245), rgb(131, 230, 183));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* reset nos espaçamentos */
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding-left: 15px;
+}
+
+
+#imagem-decorativa{
+    background-image: url(../imagens/teclado.jpg);
+    height: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+main{
+    width: 85vw;
+    margin: auto;
+}
+
+footer{
+    height: 200px;
+    background-color: lightblue;
+    color:black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes mudarCor {
+    from { color: red;}
+
+    to { color: black;}
+}
+
+footer p{
+    animation-name: mudarCor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-shadow: black 5px 5px 5px;
+}
+
+
+.treinamentos section {
+    background-color: rgba(245, 245, 245, 0.63);
+    width: 32%;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.treinamentos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flutuar-imagem {
+    float: left;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .treinamentos {flex-direction: column ;}
+    .treinamentos section {
+        width: auto;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+

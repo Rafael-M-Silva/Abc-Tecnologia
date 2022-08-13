@@ -1,0 +1,65 @@
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left, darkcyan, lightblue);
+
+    overflow: hidden;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    display: block;
+}
+
+.menu a:hover, .menu:focus {
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 1px 1px 10px;
+}
+
+
+
+
+/* Deixando os itens da lista "flutuados" à esquerda (na prática, fica lado a lado) */
+
+.menu li {
+    float: left;
+}
+
+/* Escondendo o item que tem o icone do menu */
+.menu li.icone { display: none; }
+
+
+
+@media screen and (max-width: 760px) {
+    /* Escondemos os itens do menu */
+    .menu li { 
+        display: none;
+    }
+
+
+    /* Exibindo novamento o item/ícone do Menu */
+    .menu li.icone {
+        display: block;
+        float: right;
+    }
+
+    /* Regra "fechada" muito específica
+    Somente se a lista estiver com as duas classes JUNTAS [menu e aberto, é que as configurações do float e display entrarão */
+    .menu.aberto li {
+        float: none;
+        display: inline;
+    }
+
+    /* Apenas se as duas Classes estiverem JUNTAS, posicionamos o icone/menu acima e à direita em relação à lista */
+    .menu.aberto li.icone{
+        position: absolute;
+        right: 0; top: 0;
+    }
+
+    /* Quando o menu estiver aberto, ele passará a ser referência de posicionamento do icone/menu */
+    .menu.aberto { position: relative;}
+}
